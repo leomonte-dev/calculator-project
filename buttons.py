@@ -242,12 +242,16 @@ class ButtonsGrid(QGridLayout):
     def _showError(self, text):
         msgBox = self._makeDialog(text)
         msgBox.setIcon(msgBox.Icon.Critical)
+        #Mensagem da caixa de dialogo
+        msgBox.setWindowTitle('Erro')
         msgBox.exec()
         self.display.setFocus()
 
     def _showInfo(self, text):
         msgBox = self._makeDialog(text)
         msgBox.setIcon(msgBox.Icon.Information)
+        #Mensagem da caixa de dialogo
+        msgBox.setWindowTitle('Info')
         msgBox.exec()
         self.display.setFocus()
         
