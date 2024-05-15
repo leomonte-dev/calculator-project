@@ -1,6 +1,6 @@
 =======================================================
 
-To make sure the program will work use:
+To make sure the program will work, use:
 
 **python==3.11.8**
 (_or versions below_)
