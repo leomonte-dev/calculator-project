@@ -1,6 +1,6 @@
 =======================================================
 
-To make sure the program will work use 
+To make sure the program will work use:
 
 **python==3.11.8**
 (_or versions below_)
@@ -13,7 +13,7 @@ Then:
 
 =======================================================
 
-Keyboard actions
+_Keyboard actions_:
 
 "+" -- Add the sum function.
 
@@ -29,7 +29,7 @@ Keyboard actions
 
 "⌫" -- Remove the last digit to the right on the display.
 
-Enjoy it :)
+_Enjoy it :)_
 
 =======================================================
 
