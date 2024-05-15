@@ -1,5 +1,16 @@
 =======================================================
 
+To make sure the program will work use 
+
+**python==3.11.8**
+(_or versions below_)
+
+Then:
+
+• **pip install -r requirements.txt**
+
+=======================================================
+
 Keyboard actions
 
 "+" -- Add the sum function.
@@ -17,4 +28,6 @@ Keyboard actions
 "⌫" -- Remove the last digit to the right on the display.
 
 Enjoy it :)
+
+=======================================================
 
