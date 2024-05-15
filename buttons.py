@@ -40,7 +40,7 @@ class ButtonsGrid(QGridLayout):
             ['7', '8', '9', '*'],
             ['4', '5', '6', '-'],
             ['1', '2', '3', '+'],
-            ['N',  '0', '.', '='],
+            ['+/-',  '0', '.', '='],
         ]
 
         self.display = display
@@ -79,7 +79,7 @@ class ButtonsGrid(QGridLayout):
                 button = Button(buttonText)
 
                 if not isNumrOrDot(buttonText) and not isEmpty(buttonText):
-                    if buttonText == 'N':
+                    if buttonText == '+/-':
                         button.setProperty('cssClass', 'nButton')
                         self._connectButtonClicked(button, self._invertNumber)
                         self.display.setFocus()
