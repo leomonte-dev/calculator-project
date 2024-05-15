@@ -4,8 +4,8 @@
 # https://pyqtdarktheme.readthedocs.io/en/latest/how_to_use.html
 import qdarktheme
 from variables import (DARKER_PRIMARY_COLOR, DARKEST_PRIMARY_COLOR,
-                       PRIMARY_COLOR, YELLOW_COLOR, GOLD_COLOR, RED_COLOR,
-                       DARKED_RED_COLOR, CRIMSON_COLOR)
+                       PRIMARY_COLOR, YELLOW_COLOR, GOLD_COLOR, MARROM_COLOR,
+                       DARKED_RED_COLOR, CRIMSON_COLOR, ORANGE_COLOR)
 
 qss = f"""
     QPushButton[cssClass="specialButton"] {{
@@ -26,8 +26,8 @@ qss = f"""
         background: {YELLOW_COLOR};
     }}
     QPushButton[cssClass="nButton"]:pressed {{
-        color: #FF7F50;
-        background: #FF7F50;
+        color: {ORANGE_COLOR};
+        background: {ORANGE_COLOR};
     }}
     QPushButton[cssClass="nButton"] {{
         color: black;
@@ -42,11 +42,11 @@ qss = f"""
         color: black;
     }}
     QPushButton[cssClass="backspaceButton"]:hover {{
-        background: {RED_COLOR};
+        background: {DARKED_RED_COLOR};
     }}
     QPushButton[cssClass="backspaceButton"]:pressed {{
-        color: {DARKED_RED_COLOR};
-        background: {DARKED_RED_COLOR};
+        color: {MARROM_COLOR};
+        background: {MARROM_COLOR};
     }}
 
 
